@@ -19,7 +19,7 @@ import { EquiposModule } from './modules/equipos/equipos.module';
       host: process.env.DB_HOST || 'localhost',
       port: parseInt(process.env.DB_PORT || '5432', 10),
       username: process.env.DB_USERNAME || 'postgres',
-      password: process.env.DB_PASSWORD || 'root',
+      password: process.env.DB_PASSWORD || '123qwe',
       database: process.env.DB_DATABASE || 'sresbd',
       autoLoadEntities: true,
       synchronize: true, 
